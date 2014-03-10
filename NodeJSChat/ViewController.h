@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
+@property (nonatomic, weak) IBOutlet UITextField *messageTextField;
+@property (nonatomic, weak) IBOutlet UIButton *sendButton;
+
+- (IBAction)sendButtonTouched:(id)sender;
+
 @end

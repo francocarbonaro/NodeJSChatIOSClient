@@ -21,6 +21,10 @@
 		3310548418CE1A95006A4B64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3310546618CE1A95006A4B64 /* UIKit.framework */; };
 		3310548C18CE1A95006A4B64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3310548A18CE1A95006A4B64 /* InfoPlist.strings */; };
 		3310548E18CE1A95006A4B64 /* NodeJSChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3310548D18CE1A95006A4B64 /* NodeJSChatTests.m */; };
+		3310549B18CE1C75006A4B64 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3310549A18CE1C75006A4B64 /* Security.framework */; };
+		3310549D18CE1C7B006A4B64 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3310549C18CE1C7B006A4B64 /* CFNetwork.framework */; };
+		3310549F18CE1CCF006A4B64 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3310549E18CE1CCF006A4B64 /* libicucore.dylib */; };
+		E13E561203244192845FF737 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E845839B8F4F4E64A020E62D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		3310548918CE1A95006A4B64 /* NodeJSChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NodeJSChatTests-Info.plist"; sourceTree = "<group>"; };
 		3310548B18CE1A95006A4B64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3310548D18CE1A95006A4B64 /* NodeJSChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NodeJSChatTests.m; sourceTree = "<group>"; };
+		3310549A18CE1C75006A4B64 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3310549C18CE1C7B006A4B64 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3310549E18CE1CCF006A4B64 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		44F64211BEBB451A902388D2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E845839B8F4F4E64A020E62D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +69,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3310549F18CE1CCF006A4B64 /* libicucore.dylib in Frameworks */,
+				3310549D18CE1C7B006A4B64 /* CFNetwork.framework in Frameworks */,
+				3310549B18CE1C75006A4B64 /* Security.framework in Frameworks */,
 				3310546518CE1A95006A4B64 /* CoreGraphics.framework in Frameworks */,
 				3310546718CE1A95006A4B64 /* UIKit.framework in Frameworks */,
 				3310546318CE1A95006A4B64 /* Foundation.framework in Frameworks */,
+				E13E561203244192845FF737 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +99,7 @@
 				3310548718CE1A95006A4B64 /* NodeJSChatTests */,
 				3310546118CE1A95006A4B64 /* Frameworks */,
 				3310546018CE1A95006A4B64 /* Products */,
+				44F64211BEBB451A902388D2 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +115,14 @@
 		3310546118CE1A95006A4B64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3310549E18CE1CCF006A4B64 /* libicucore.dylib */,
+				3310549C18CE1C7B006A4B64 /* CFNetwork.framework */,
+				3310549A18CE1C75006A4B64 /* Security.framework */,
 				3310546218CE1A95006A4B64 /* Foundation.framework */,
 				3310546418CE1A95006A4B64 /* CoreGraphics.framework */,
 				3310546618CE1A95006A4B64 /* UIKit.framework */,
 				3310548118CE1A95006A4B64 /* XCTest.framework */,
+				E845839B8F4F4E64A020E62D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3310549118CE1A95006A4B64 /* Build configuration list for PBXNativeTarget "NodeJSChat" */;
 			buildPhases = (
+				7602FFC79022454598A810AF /* Check Pods Manifest.lock */,
 				3310545B18CE1A95006A4B64 /* Sources */,
 				3310545C18CE1A95006A4B64 /* Frameworks */,
 				3310545D18CE1A95006A4B64 /* Resources */,
+				64D54B3787634D008620794E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +263,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64D54B3787634D008620794E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7602FFC79022454598A810AF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3310545B18CE1A95006A4B64 /* Sources */ = {
@@ -375,6 +428,7 @@
 		};
 		3310549218CE1A95006A4B64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F64211BEBB451A902388D2 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -388,6 +442,7 @@
 		};
 		3310549318CE1A95006A4B64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F64211BEBB451A902388D2 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -460,6 +515,7 @@
 				3310549318CE1A95006A4B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3310549418CE1A95006A4B64 /* Build configuration list for PBXNativeTarget "NodeJSChatTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +524,7 @@
 				3310549618CE1A95006A4B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
