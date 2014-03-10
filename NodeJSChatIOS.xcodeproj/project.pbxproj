@@ -38,23 +38,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3310545F18CE1A95006A4B64 /* NodeJSChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NodeJSChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3310545F18CE1A95006A4B64 /* NodeJSChatIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NodeJSChatIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3310546218CE1A95006A4B64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3310546418CE1A95006A4B64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3310546618CE1A95006A4B64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3310546A18CE1A95006A4B64 /* NodeJSChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NodeJSChat-Info.plist"; sourceTree = "<group>"; };
+		3310546A18CE1A95006A4B64 /* NodeJSChatIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NodeJSChatIOS-Info.plist"; sourceTree = "<group>"; };
 		3310546C18CE1A95006A4B64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3310546E18CE1A95006A4B64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3310547018CE1A95006A4B64 /* NodeJSChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NodeJSChat-Prefix.pch"; sourceTree = "<group>"; };
+		3310547018CE1A95006A4B64 /* NodeJSChatIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NodeJSChatIOS-Prefix.pch"; sourceTree = "<group>"; };
 		3310547118CE1A95006A4B64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3310547218CE1A95006A4B64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3310547518CE1A95006A4B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3310547718CE1A95006A4B64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3310547818CE1A95006A4B64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3310547A18CE1A95006A4B64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3310548018CE1A95006A4B64 /* NodeJSChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NodeJSChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3310548018CE1A95006A4B64 /* NodeJSChatIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NodeJSChatIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3310548118CE1A95006A4B64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3310548918CE1A95006A4B64 /* NodeJSChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NodeJSChatTests-Info.plist"; sourceTree = "<group>"; };
+		3310548918CE1A95006A4B64 /* NodeJSChatIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NodeJSChatIOSTests-Info.plist"; sourceTree = "<group>"; };
 		3310548B18CE1A95006A4B64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3310548D18CE1A95006A4B64 /* NodeJSChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NodeJSChatTests.m; sourceTree = "<group>"; };
 		3310549A18CE1C75006A4B64 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -106,8 +106,8 @@
 		3310546018CE1A95006A4B64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3310545F18CE1A95006A4B64 /* NodeJSChat.app */,
-				3310548018CE1A95006A4B64 /* NodeJSChatTests.xctest */,
+				3310545F18CE1A95006A4B64 /* NodeJSChatIOS.app */,
+				3310548018CE1A95006A4B64 /* NodeJSChatIOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,10 +144,10 @@
 		3310546918CE1A95006A4B64 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3310546A18CE1A95006A4B64 /* NodeJSChat-Info.plist */,
+				3310546A18CE1A95006A4B64 /* NodeJSChatIOS-Info.plist */,
 				3310546B18CE1A95006A4B64 /* InfoPlist.strings */,
 				3310546E18CE1A95006A4B64 /* main.m */,
-				3310547018CE1A95006A4B64 /* NodeJSChat-Prefix.pch */,
+				3310547018CE1A95006A4B64 /* NodeJSChatIOS-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 		3310548818CE1A95006A4B64 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3310548918CE1A95006A4B64 /* NodeJSChatTests-Info.plist */,
+				3310548918CE1A95006A4B64 /* NodeJSChatIOSTests-Info.plist */,
 				3310548A18CE1A95006A4B64 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -173,9 +173,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3310545E18CE1A95006A4B64 /* NodeJSChat */ = {
+		3310545E18CE1A95006A4B64 /* NodeJSChatIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3310549118CE1A95006A4B64 /* Build configuration list for PBXNativeTarget "NodeJSChat" */;
+			buildConfigurationList = 3310549118CE1A95006A4B64 /* Build configuration list for PBXNativeTarget "NodeJSChatIOS" */;
 			buildPhases = (
 				7602FFC79022454598A810AF /* Check Pods Manifest.lock */,
 				3310545B18CE1A95006A4B64 /* Sources */,
@@ -187,14 +187,14 @@
 			);
 			dependencies = (
 			);
-			name = NodeJSChat;
+			name = NodeJSChatIOS;
 			productName = NodeJSChat;
-			productReference = 3310545F18CE1A95006A4B64 /* NodeJSChat.app */;
+			productReference = 3310545F18CE1A95006A4B64 /* NodeJSChatIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3310547F18CE1A95006A4B64 /* NodeJSChatTests */ = {
+		3310547F18CE1A95006A4B64 /* NodeJSChatIOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3310549418CE1A95006A4B64 /* Build configuration list for PBXNativeTarget "NodeJSChatTests" */;
+			buildConfigurationList = 3310549418CE1A95006A4B64 /* Build configuration list for PBXNativeTarget "NodeJSChatIOSTests" */;
 			buildPhases = (
 				3310547C18CE1A95006A4B64 /* Sources */,
 				3310547D18CE1A95006A4B64 /* Frameworks */,
@@ -205,9 +205,9 @@
 			dependencies = (
 				3310548618CE1A95006A4B64 /* PBXTargetDependency */,
 			);
-			name = NodeJSChatTests;
+			name = NodeJSChatIOSTests;
 			productName = NodeJSChatTests;
-			productReference = 3310548018CE1A95006A4B64 /* NodeJSChatTests.xctest */;
+			productReference = 3310548018CE1A95006A4B64 /* NodeJSChatIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3310545A18CE1A95006A4B64 /* Build configuration list for PBXProject "NodeJSChat" */;
+			buildConfigurationList = 3310545A18CE1A95006A4B64 /* Build configuration list for PBXProject "NodeJSChatIOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -237,8 +237,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3310545E18CE1A95006A4B64 /* NodeJSChat */,
-				3310547F18CE1A95006A4B64 /* NodeJSChatTests */,
+				3310545E18CE1A95006A4B64 /* NodeJSChatIOS */,
+				3310547F18CE1A95006A4B64 /* NodeJSChatIOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -321,7 +321,7 @@
 /* Begin PBXTargetDependency section */
 		3310548618CE1A95006A4B64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3310545E18CE1A95006A4B64 /* NodeJSChat */;
+			target = 3310545E18CE1A95006A4B64 /* NodeJSChatIOS */;
 			targetProxy = 3310548518CE1A95006A4B64 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,9 +433,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NodeJSChat/NodeJSChat-Prefix.pch";
-				INFOPLIST_FILE = "NodeJSChat/NodeJSChat-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "NodeJSChat/NodeJSChatIOS-Prefix.pch";
+				INFOPLIST_FILE = "NodeJSChat/NodeJSChatIOS-Info.plist";
+				PRODUCT_NAME = NodeJSChatIOS;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -447,9 +447,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NodeJSChat/NodeJSChat-Prefix.pch";
-				INFOPLIST_FILE = "NodeJSChat/NodeJSChat-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "NodeJSChat/NodeJSChatIOS-Prefix.pch";
+				INFOPLIST_FILE = "NodeJSChat/NodeJSChatIOS-Info.plist";
+				PRODUCT_NAME = NodeJSChatIOS;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,8 +470,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "NodeJSChatTests/NodeJSChatTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "NodeJSChatTests/NodeJSChatIOSTests-Info.plist";
+				PRODUCT_NAME = NodeJSChatIOSTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -489,8 +489,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NodeJSChat/NodeJSChat-Prefix.pch";
-				INFOPLIST_FILE = "NodeJSChatTests/NodeJSChatTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "NodeJSChatTests/NodeJSChatIOSTests-Info.plist";
+				PRODUCT_NAME = NodeJSChatIOSTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -499,7 +499,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3310545A18CE1A95006A4B64 /* Build configuration list for PBXProject "NodeJSChat" */ = {
+		3310545A18CE1A95006A4B64 /* Build configuration list for PBXProject "NodeJSChatIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3310548F18CE1A95006A4B64 /* Debug */,
@@ -508,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3310549118CE1A95006A4B64 /* Build configuration list for PBXNativeTarget "NodeJSChat" */ = {
+		3310549118CE1A95006A4B64 /* Build configuration list for PBXNativeTarget "NodeJSChatIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3310549218CE1A95006A4B64 /* Debug */,
@@ -517,7 +517,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3310549418CE1A95006A4B64 /* Build configuration list for PBXNativeTarget "NodeJSChatTests" */ = {
+		3310549418CE1A95006A4B64 /* Build configuration list for PBXNativeTarget "NodeJSChatIOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3310549518CE1A95006A4B64 /* Debug */,

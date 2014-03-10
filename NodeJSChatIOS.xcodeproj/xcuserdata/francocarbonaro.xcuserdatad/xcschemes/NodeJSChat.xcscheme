@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3310545E18CE1A95006A4B64"
-               BuildableName = "NodeJSChat.app"
-               BlueprintName = "NodeJSChat"
-               ReferencedContainer = "container:NodeJSChat.xcodeproj">
+               BuildableName = "NodeJSChatIOS.app"
+               BlueprintName = "NodeJSChatIOS"
+               ReferencedContainer = "container:NodeJSChatIOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3310547F18CE1A95006A4B64"
-               BuildableName = "NodeJSChatTests.xctest"
-               BlueprintName = "NodeJSChatTests"
-               ReferencedContainer = "container:NodeJSChat.xcodeproj">
+               BuildableName = "NodeJSChatIOSTests.xctest"
+               BlueprintName = "NodeJSChatIOSTests"
+               ReferencedContainer = "container:NodeJSChatIOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3310545E18CE1A95006A4B64"
-            BuildableName = "NodeJSChat.app"
-            BlueprintName = "NodeJSChat"
-            ReferencedContainer = "container:NodeJSChat.xcodeproj">
+            BuildableName = "NodeJSChatIOS.app"
+            BlueprintName = "NodeJSChatIOS"
+            ReferencedContainer = "container:NodeJSChatIOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3310545E18CE1A95006A4B64"
-            BuildableName = "NodeJSChat.app"
-            BlueprintName = "NodeJSChat"
-            ReferencedContainer = "container:NodeJSChat.xcodeproj">
+            BuildableName = "NodeJSChatIOS.app"
+            BlueprintName = "NodeJSChatIOS"
+            ReferencedContainer = "container:NodeJSChatIOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3310545E18CE1A95006A4B64"
-            BuildableName = "NodeJSChat.app"
-            BlueprintName = "NodeJSChat"
-            ReferencedContainer = "container:NodeJSChat.xcodeproj">
+            BuildableName = "NodeJSChatIOS.app"
+            BlueprintName = "NodeJSChatIOS"
+            ReferencedContainer = "container:NodeJSChatIOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
